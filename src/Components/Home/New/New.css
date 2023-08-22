@@ -1,0 +1,163 @@
+/* ********** Frontpage */
+
+@media only screen and (min-width: 961px) {
+  .front_page_background,
+  .auth_background {
+    background-image: url("https://res.cloudinary.com/dozt7xeil/image/upload/v1692706503/Dermatology/Derma-books24-ibn_e43ukc.webp");
+    background-color: #24abdb;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .auth_background {
+    padding-top: 10%;
+  }
+}
+
+.top_logos {
+  display: flex;
+  justify-content: space-around;
+  padding: 4% 0;
+}
+.frontPage_image_right {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+}
+.frontPage_image_left {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.front_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content !important;
+  overflow: hidden;
+  text-transform: uppercase;
+  text-align: center;
+}
+.button_auth {
+  margin-bottom: 15%;
+}
+.frontPage_btn {
+  background-color: #007a3d;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.front_header {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 15%;
+}
+.front_slogan {
+  background: rgb(89, 49, 146);
+  background: linear-gradient(
+    42deg,
+    rgba(89, 49, 146, 1) 0%,
+    rgba(61, 73, 161, 1) 80%,
+    rgba(30, 101, 177, 1) 100%
+  );
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 960px) {
+  .front_page_background,
+  .auth_background {
+    background-image: url("https://res.cloudinary.com/dozt7xeil/image/upload/v1692706503/Dermatology/Derma-books24-ibn_e43ukc.webp");
+    background-color: #24abdb;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .auth_background {
+    padding-top: 50%;
+  }
+}
+
+/* ****************** Login page */
+
+.login_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth_btn {
+  background-color: #007a3d;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 50vw !important;
+  border-radius: 50px;
+}
+.auth_btn:hover {
+  background-color: #7fffd4;
+}
+
+.password_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eye_icon {
+  background-color: #ffffff;
+  padding: 5px;
+  border: none !important;
+}
+
+.login_footer,
+.signup_footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 960px) {
+}
+/* *************** Sign up Form */
+.sign_up_form,
+.login_form {
+  padding-bottom: 50px;
+}
+
+.success,
+.error {
+  color: #fff;
+  background-color: #008000;
+  text-align: center;
+  font-weight: 700;
+  padding: 10px 5px;
+  width: fit-content;
+  margin: auto;
+}
+.error {
+  background-color: #ff0000 !important;
+}
+
+.dr_name_input {
+  display: flex;
+  position: relative;
+}
+.dr_name_input span {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+.dr_name_input_field {
+  padding-left: 35px !important;
+}
