@@ -270,7 +270,7 @@ const BookDisplay = () => {
           </div>
         </form>
         {/* button */}
-        <section className="special-btn-main">
+        {/* <section className="special-btn-main">
           <h2 className="mb-5">Select Your Choice</h2>
           <div className="special-btns">
             <span>
@@ -302,7 +302,7 @@ const BookDisplay = () => {
               </button>
             </span>
           </div>
-        </section>
+        </section> */}
 
         <div className="book_display_main my-3">
           <div className="row bookRow">

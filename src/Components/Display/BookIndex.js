@@ -8,7 +8,7 @@ const BookIndex = () => {
   const [books, setBooks] = useState([]);
   const [newFilterBooks, setNewFilterBooks] = useState([]);
 
-  const [selectedButton, setSelectedButton] = useState("");
+  // const [selectedButton, setSelectedButton] = useState("");
 
   const bookBaseData = `${process.env.REACT_APP_BACKEND_URL}/getBookData`;
   useEffect(() => {
@@ -48,7 +48,7 @@ const BookIndex = () => {
 
         <div className="offcanvas-body">
           {/* button */}
-          <section className="special-btn-main special-button-index">
+          {/* <section className="special-btn-main special-button-index">
             <div className="special-btns">
               <span>
                 <button
@@ -81,7 +81,7 @@ const BookIndex = () => {
                 </button>
               </span>
             </div>
-          </section>
+          </section> */}
           {newFilterBooks?.map((bookData, index) => (
             <div className="mt-3" key={bookData?._id}>
               <ul>
